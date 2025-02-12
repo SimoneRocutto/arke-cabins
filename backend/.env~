@@ -1,0 +1,27 @@
+# Phoenix and guardian secrets
+export SECRET_KEY_BASE=""
+export SECRET_KEY_AUTH=""
+
+# Database Config
+export DB_NAME="arke_db"
+export DB_HOSTNAME="localhost"
+export DB_USER="postgres"
+export DB_PASSWORD="my-secret-password"
+
+# DEPS PATH (path where all the arke packages are located)
+export EX_DEP_ARKE_PATH=
+export EX_DEP_ARKE_POSTGRES_PATH=""
+export EX_DEP_ARKE_SERVER_PATH=""
+export EX_DEP_ARKE_AUTH_PATH=""
+
+# Erlang node name for dev purposes (local epmd strategy for erlang clustering)
+#export ERL_FLAGS="-name backend@localhost"
+
+# Storage configuration
+export DEFAULT_BUCKET=
+export GOOGLE_APPLICATION_CREDENTIALS=
+export STORAGE_SERVICE_ACCOUNT=
+
+# Mailer configuration
+export MAILTRAP_API_KEY=
+export RESET_PASSWORD_ENDPOINT=
