@@ -1,0 +1,1 @@
+{"group":[{"id":"arke_auth_member","label":"Arke Auth Member","description":"Arke Auth Member","arke_list":["member_public","super_admin"]},{"id":"enable_sso","label":"Enable SSO","description":"Group containing all the arkes which can use the SSO function","arke_list":["super_admin"]}]}
